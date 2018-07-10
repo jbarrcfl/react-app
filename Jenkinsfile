@@ -1,4 +1,4 @@
-node {
+node 'docker-slave-MacOSX' {
   try {
     stage('Checkout') {
       checkout scm
