@@ -5,7 +5,7 @@ import Layout from './modules/layout';
 import routes from './routes';
 
 app(() => (
-  <Layout routes={routes} title="React app from scratch">
+  <Layout routes={routes} title="React app from scratch - Barrnas.local:3000">
     {renderRoutes(routes)}
   </Layout>
 ));
